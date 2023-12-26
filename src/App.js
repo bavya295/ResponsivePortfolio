@@ -17,7 +17,11 @@ function App() {
   <Route path="/experience" element={<Experience/>}></Route>
   <Route path="/project" element={<Project/>}></Route>
   <Route path="/contact" element={<Contact/>}></Route>
-
+<Route path="/ResponsivePortfolio" element={<Navigate to="/" />} />
+      
+      {/* Catch-all route */}
+      <Route path="*" element={<NotFound />} /> {/* Replace NotFound with your component */}
+    </Routes>
 </Routes>
     </>
   );
