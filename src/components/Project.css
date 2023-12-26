@@ -1,0 +1,44 @@
+.project{
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr;
+    text-align: center;
+    justify-content: center;
+    animation: fadeInUp 1s ease forwards;
+}
+.project img{
+    position: relative;
+    width:25%;
+    left:520px;
+    
+}
+.project h1{
+    font-family: Kalam,'sarif';
+    font-size: 50px;
+    color: aliceblue;
+}
+.project h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aquamarine;
+}
+.project li{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: crimson;
+}
+.project p{
+    color: rgb(101, 125, 76);
+}
+@media (max-width:600px) {
+   .project img{
+    width:70%;
+    left:60px;
+   } 
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

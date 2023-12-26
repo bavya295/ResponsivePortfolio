@@ -1,0 +1,64 @@
+/* CSS */
+/* CSS */
+.navbar-brand{
+  color: crimson !important;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar .navbar-nav .nav-link {
+    color: white;
+    transition: color 0.3s;
+  }
+  .nav-link{
+    margin-left: 30px;
+  }
+  .navbar .navbar-nav .nav-link:hover {
+    color: rgb(145, 27, 60) !important;
+    
+    /* Change to the desired color on hover */
+  }
+  .navbar{
+    background-color: rgb(16, 14, 14) !important;
+    
+  }
+  .navbar-toggler{
+    background-color: rgb(104, 104, 82);
+    border-radius: 50px;
+  }
+  .a-ip {
+    position: relative;
+    left:60px;
+    padding: 3px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 4px; /* Rounded corners */
+    /* Add any additional styles you need */
+    background-color: #333333;
+    color: aliceblue;
+}
+
+/* Style for the button */
+.search-button {
+  position: relative;
+    left:60px;
+    background-image: linear-gradient(to bottom, #000000, #333333);
+    color: white; /* Text color */
+    padding: 4px 12px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    /* Add any additional styles you need */
+}
+
+/* Icon style inside the button */
+.search-button i {
+    margin-right: 5px; /* Adjust icon position */
+}
+@media (max-width:900px) {
+  .a-ip{
+    left:37px;
+  }
+  .search-button{
+    left: -20px;
+  }
+}

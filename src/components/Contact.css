@@ -1,0 +1,43 @@
+.contact{
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr;
+    text-align: center;
+    justify-content: center;
+    animation: fadeInUp 1s ease forwards;
+}
+.contact h1{
+    color: aqua;
+    font-family: Kalam,'sarif';
+    font-size: 60px;
+}
+.contact h2{
+    position: relative;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.contact a{
+    text-decoration: none;
+    color: rgb(218, 24, 99);
+}
+.contact a:hover{
+    color: cadetblue;
+}
+/* Default styles for the PDF embed */
+#pdfEmbed {
+    width: 100%;
+    height: 600px;
+  }
+  
+  /* Media query for screens below 700px */
+  @media screen and (max-width: 700px) {
+    #pdfEmbed {
+        position: relative;
+        left:120px;
+      width: 60%;
+       /* Adjust this value as needed */
+      height: 600px; /* Adjust this value as needed */
+    }
+  }
+  

@@ -1,0 +1,42 @@
+.card {
+    position: relative;
+    top: 50px;
+    margin-left: 70px;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(156, 29, 29, 0.8); /* Adjust shadow values */
+  color: rgb(255, 255, 255);
+    
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Move card up slightly on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); /* Enhance shadow on hover */
+  }
+  .card h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .skill{
+    color: rgb(4, 54, 103);
+    text-align: center;
+    font-size: 70px;
+  }
+  .skill-animation {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInUp 1s ease forwards;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
